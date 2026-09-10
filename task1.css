@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 25px;
+    padding: 10px;
+}
+#title {
+    color: darkblue;
+    text-align: center;
+}
+h2 {
+    color: darkgreen;
+}
+p{
+    color: black;
+}
+a {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+.profile-card {
+ max-width: 300px;
+ background-color: white;
+ border:2px solid black;
+ padding: 15px;
+ margin-top: 10px;
+}
+.profile-card img{
+    max-width: 200px;
+    border-radius: 10px;
+    width: 100%;
+}
