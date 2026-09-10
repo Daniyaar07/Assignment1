@@ -1,0 +1,21 @@
+body {
+    background-color: lightgray;
+    font-family: Arial;
+    text-align: center;
+}
+h1 {
+    color:darkblue;
+}
+.navbar {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+.navbar a {
+    margin: 40px;
+    color :darkblue;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: red;
+}
