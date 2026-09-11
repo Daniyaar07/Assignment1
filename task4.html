@@ -34,5 +34,28 @@
             <td>A</td>
         </tr>
     </table>
+    <h1>Feedback Form</h1>
+    <div class="form-container">
+        <form>
+            <label>Name:</label>
+            <input type="text" name="name">
+            <label>Email:</label>
+            <input type="email" name="email">
+            <label>Role:</label>
+            <select name="role">
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Other</option>
+            </select>
+            <label>Do you like this website?</label>
+            <div class="radio">
+                <input type="radio" name="answer" value="yes"> Yes
+                <input type="radio" name="answer" value="no"> No
+            </div>
+            <label>Comments:</label>
+            <textarea name="comments"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
